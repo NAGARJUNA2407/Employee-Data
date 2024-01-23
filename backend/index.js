@@ -28,5 +28,5 @@ const dbConnect = require("./config/database");
 dbConnect();
 
 app.get("/", (req, res) => {
-  res.send(`<h1>Backend is Running and this is '/' Route</h1>`);
+  res.json(`<h1>Backend is Running and this is '/' Route</h1>`);
 });

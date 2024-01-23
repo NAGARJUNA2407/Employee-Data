@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000;
 var cors = require("cors");
 app.use(
   cors({
-    origin: "https://employee-data-omega.vercel.app/",
+    origin: "https://employee-data-backend-hxed.onrender.com/",
   })
 );
 // Middleware
